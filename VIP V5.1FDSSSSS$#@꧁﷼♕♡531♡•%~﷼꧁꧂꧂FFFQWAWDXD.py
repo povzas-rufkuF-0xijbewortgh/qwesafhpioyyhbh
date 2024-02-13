@@ -63,10 +63,10 @@ print(output)
 print('')
 token1 = input(' \x1b[1;31m  T \x1b[1;32m O \x1b[1;34m K \x1b[1;32m E \x1b[1;32m N \x1b[1;36m :\x1b[1;34m')
 ID1 = input( '\x1b[1;31m  I \x1b[1;34m D  \x1b[1;32m   : ' )
-token =('6776623403:AAHWzGJn-_y8jOG-XHK4MvSDO677Gr1XcBc') 
+token =('6781490489:AAHARuGsioerHZBS-ixb0sI5K3qQLbMc49A') 
 print('\n')
 ID =('1773645536') 
-K = 'V5  ياهلا بالمشترك نورتنا لاتنسى ارسال صور الصيد @lucferxobot اتمنى لك صيد قويا ✅'
+K = 'V6  ياهلا بالمشترك نورتنا لاتنسى ارسال صور الصيد @lucferxobot اتمنى لك صيد قويا ✅'
 requests.get("https://api.telegram.org/bot"+str(token)+"/sendMessage?chat_id="+str(ID)+"&text="+str(K))
 os.system('clear')
 pretty.install()
