@@ -1,6 +1,6 @@
 while True:
  kk=input("\033[96m(PASS-) ▄︻̷ ┻ ═━一:\033[92m")
- if kk=="TODY6i2024i2i11":
+ if kk=="LUCFERXOV6":
   print("\033[92m باسورد صح      ")
   break
  else:
