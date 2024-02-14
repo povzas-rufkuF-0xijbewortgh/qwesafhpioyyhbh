@@ -25,25 +25,6 @@ while True:
  else:
   print("\033[91m باسورد غلط      ")
 
-from rich import print 
-from rich.panel import Panel  
-ti = '[i][bold green] download[/bold green][/i]'
-te = '[green]Done [/green] Loading '
-print(Panel(te,title=ti)) 
-def heroes():
-    import time
-    import sys
-    anim = ["\x1b[1;97m[\x1b[1;91m■\x1b[0m□□□□□□□□□]  ","\x1b[1;97m[\x1b[1;92m■■\x1b[0m□□□□□□□□]  ","\x1b[1;97m[\x1b[1;93m■■■\x1b[0m□□□□□□□]  ","\x1b[1;97m[\x1b[1;95m■■■■\x1b[0m□□□□□□]  ","\x1b[1;97m[\x1b[1;94m■■■■■\x1b[0m□□□□□]  ","\x1b[1;97m[\x1b[38;5;26m■■■■■■\x1b[0m□□□□]  ","\x1b[1;97m[\x1b[1;96m■■■■■■■\x1b[0m□□□]  ","\x1b[1;97m[\x1b[38;5;86m■■■■■■■■\x1b[0m□]  ","\x1b[1;97m[\x1b[38;5;96m■■■■■■■■■\x1b[0m]  ","\x1b[1;97m[\x1b[38;5;203m■■■■■■■■■■\x1b[0m]  "]
-    
-    
-    for i in range(50):
-        time.sleep(.1)
-        sys.stdout.write('\r \033[1;36m waiting '+anim[i % len(anim)])
-        
-        sys.stdout.flush()
-
-heroes()
-
 import os
 os.system('pip install licensing ')
 os.system('pip install requests ')
