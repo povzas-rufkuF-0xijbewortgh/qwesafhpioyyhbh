@@ -16,9 +16,8 @@ os.system('pip install requests ')
 tokenn1 =('6781490489:AAHARuGsioerHZBS-ixb0sI5K3qQLbMc49A') 
 print('\n')
 IID1 =('1773645536')
-uoijh51= ' هناك من شغل اداتك المجانية '
+uoijh51= ' هناك من شغل اداتك 🪯🔰⚡ '
 requests.get("https://api.telegram.org/bot"+str(tokenn1)+"/sendMessage?chat_id="+str(IID1)+"&text="+str(uoijh51))
-
 a26 = '\x1b[38;5;205m'  # وردي فاتح
 a27 = '\x1b[38;5;161m'  # وردي داكن
 a28 = '\x1b[38;5;236m'  # أسود فاتح
