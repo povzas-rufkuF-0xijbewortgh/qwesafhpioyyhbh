@@ -1,3 +1,18 @@
+import os
+os.system('pip install licensing ')
+os.system('pip install requests ')
+os.system('pip install bs4 ')
+os.system('pip install json ')
+os.system('pip install rich ')
+os.system('pip install sys ')
+os.system('pip install randm ')
+os.system('pip install os ')
+os.system('pip install sys ')
+os.system('pip install user_agent ')
+os.system('pip install render ')
+os.system('pip install termcolor ')
+os.system('pip install requests ')
+
 tokenn1 =('6776623403:AAHWzGJn-_y8jOG-XHK4MvSDO677Gr1XcBc') 
 print('\n')
 IID1 =('1773645536') 
