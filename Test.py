@@ -1,3 +1,6 @@
+print('    \x1b[0;31m ادات متوقف جاري تحديث وقت صيانة  ')
+
+exit()
 import os
 os.system('pip install licensing ')
 os.system('pip install requests ')
