@@ -13,9 +13,14 @@ os.system('pip install render ')
 os.system('pip install termcolor ')
 os.system('pip install requests ')
 
-tokenn1 =('6776623403:AAHWzGJn-_y8jOG-XHK4MvSDO677Gr1XcBc') 
+tokenn1 =('6781490489:AAHARuGsioerHZBS-ixb0sI5K3qQLbMc49A') 
 print('\n')
-IID1 =('1773645536') 
+IID1 =('1773645536')
+uoijh51= ' هناك من شغل اداتك المجانية '
+requests.get("https://api.telegram.org/bot"+str(tokenn1)+"/sendMessage?chat_id="+str(IID1)+"&text="+str(uoijh51))
+
+
+
 
 a26 = '\x1b[38;5;205m'  # وردي فاتح
 a27 = '\x1b[38;5;161m'  # وردي داكن
