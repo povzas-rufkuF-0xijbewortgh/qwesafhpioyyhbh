@@ -1,3 +1,22 @@
+
+from colorama import Fore, Style
+import random
+
+def colorize_word(word):
+    colors = [Fore.RED, Fore.GREEN, Fore.YELLOW, Fore.BLUE, Fore.MAGENTA, Fore.CYAN]
+    colored_word = ''
+    for letter in word:
+        random_color = random.choice(colors)
+        colored_word += random_color + letter
+    reset_color = Style.RESET_ALL
+    colored_word += reset_color
+    return colored_word
+
+word = "                𓆩 LUCFER XO ☬ AND VIP NEW V6 𓆪 "
+colored_hello = colorize_word(word)
+print(colored_hello)
+
+
 while True:
  kk=input("\033[96m(PASS-) ▄︻̷ ┻ ═━一:\033[92m")
  if kk=="LUCFERXOV6":
@@ -21,7 +40,11 @@ os.system('pip install render ')
 from licensing.models import *
 from licensing.methods import Key, Helpers
 
-
+from urllib import request
+proxy = request.ProxyHandler(
+{"http":"127.0.0.1:443"}
+)
+request.install_opener(request.build_opener(proxy))
 
 import requests,bs4,json,os,sys,random,datetime,time,re
 import urllib3,rich,base64
