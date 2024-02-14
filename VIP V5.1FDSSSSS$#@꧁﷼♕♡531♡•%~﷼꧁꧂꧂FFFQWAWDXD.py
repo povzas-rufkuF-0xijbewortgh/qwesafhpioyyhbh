@@ -47,20 +47,6 @@ proxy = request.ProxyHandler(
 )
 request.install_opener(request.build_opener(proxy))
 
-import requests
-try:
-    prox= requests.get('https://raw.githubusercontent.com/povzas-rufkuF-0xijbewortgh/qwesafhpioyyhbh/main/prox.txt').text
-    open('.prox.txt','w').write(prox)
-except Exception as e:
-    pass
-prox=open('.prox.txt','r').read().splitlines()
-import requests
-try:
-    prox= requests.get('https://github.com/Pro-Max-420/Api/blob/main/prox.txt').text
-    open('.prox.txt','w').write(prox)
-except Exception as e:
-    pass
-prox=open('.prox.txt','r').read().splitlines()
 import requests,bs4,json,os,sys,random,datetime,time,re
 import urllib3,rich,base64
 from rich.table import Table as me
