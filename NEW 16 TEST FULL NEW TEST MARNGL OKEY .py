@@ -1,4 +1,3 @@
-
 tokenn = ('6781490489:AAHARuGsioerHZBS-ixb0sI5K3qQLbMc49A')
 IDD = ('1773645536')
 print('\x1b[38;5;22m')
@@ -122,7 +121,7 @@ import os
 import user_agent
 import sys
 
-########⚜️ LUCFER XO ⚜️#########
+########⚜️ 𝑹𝑴𝑨𝑫 ⚜️#########
 class RMAD1:
     def __init__(self,z):
         for e in z+'\n':
@@ -144,7 +143,7 @@ def clear():
 def u():
     RMAD1(logo)
 u()
-########⚜️ LUCFER XO ⚜️#########
+########⚜️ 𝑹𝑴𝑨𝑫 ⚜️#########
 print('══'*26)
 token=input(S+'  𝙩𝙤𝙠𝙚𝙣 :  '+F)
 print('\n')
