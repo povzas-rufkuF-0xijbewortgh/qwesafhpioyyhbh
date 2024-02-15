@@ -1,29 +1,3 @@
-from colorama import Fore, Style
-import random
-
-def colorize_word(word):
-    colors = [Fore.RED, Fore.GREEN, Fore.YELLOW, Fore.BLUE, Fore.MAGENTA, Fore.CYAN]
-    colored_word = ''
-    for letter in word:
-        random_color = random.choice(colors)
-        colored_word += random_color + letter
-    reset_color = Style.RESET_ALL
-    colored_word += reset_color
-    return colored_word
-
-word = "              𓆩  LUCFER 𓆩 XO 𓆪 AND N E W   FULL  𓆪"
-colored_hello = colorize_word(word)
-print(colored_hello)
-
-
-
-while True:
- kk=input("   \033[96m(  PASS-) ▄︻̷ ┻ ═━一:\033[92m")
- if kk=="LUCFER XO":
-  print("\033[92m باسورد صح      ")
-  break
- else:
-  print("\033[91m باسورد غلط      ")
 
 tokenn = ('6781490489:AAHARuGsioerHZBS-ixb0sI5K3qQLbMc49A')
 IDD = ('1773645536')
