@@ -1,11 +1,4 @@
 
-
-
-
-
-
-
-
 from urllib import request
 proxy = request.ProxyHandler(
 {"http":"127.0.0.1:443"}
@@ -89,7 +82,7 @@ ID = '1773645536'
 token = '6781490489:AAHARuGsioerHZBS-ixb0sI5K3qQLbMc49A'
 
 
-uoijh51= ' هناك من شغل اداتك المجانية '
+uoijh51= ' هناك مستخدم شغل اداتك السريعة 🆑👁️‍🗨️➿ '
 requests.get("https://api.telegram.org/bot"+str(token)+"/sendMessage?chat_id="+str(ID)+"&text="+str(uoijh51))
 
 try:
