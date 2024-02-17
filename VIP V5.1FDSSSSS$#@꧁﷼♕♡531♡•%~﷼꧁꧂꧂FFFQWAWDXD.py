@@ -19,7 +19,7 @@ print(colored_hello)
 
 while True:
  kk=input("\033[96m(PASS-) ▄︻̷ ┻ ═━一:\033[92m")
- if kk=="LUCFERXOV6":
+ if kk=="GTFRDESWAQ":
   print("\033[92m باسورد صح      ")
   break
  else:
