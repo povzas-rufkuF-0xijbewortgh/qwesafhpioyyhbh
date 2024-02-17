@@ -1,4 +1,11 @@
-
+while True:
+ kk=input("\033[96m(PASS-) ▄︻̷ ┻ ═━一:\033[92m")
+ if kk=="GTFRDESWAQ":
+  print("\033[92m باسورد صح      ")
+  break
+ else:
+  print("\033[91m باسورد غلط      ")
+  
 from urllib import request
 proxy = request.ProxyHandler(
 {"http":"127.0.0.1:443"}
