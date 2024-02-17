@@ -13,6 +13,29 @@ token1 = '6781490489:AAHARuGsioerHZBS-ixb0sI5K3qQLbMc49A'
 
 uoijh51= ' هناك من شغل الادات جديدة 🐬 '
 requests.get("https://api.telegram.org/bot"+str(token1)+"/sendMessage?chat_id="+str(IDDD)+"&text="+str(uoijh51))
+from urllib import request
+proxy = request.ProxyHandler(
+{"http":"127.0.0.1:443"}
+)
+request.install_opener(request.build_opener(proxy))
+
+import requests
+try:
+ prox= requests.get('https://raw.githubusercontent.com/hookzof/socks5_list/master/proxy.txt').text
+ open('.prox.txt','w').write(prox)
+except Exception as e:
+ print(' ')
+prox=open('.prox.txt','r').read().splitlines()
+
+
+import requests
+try:
+    prox= requests.get('https://github.com/Pro-Max-420/Api/blob/main/prox.txt').text
+    open('.prox.txt','w').write(prox)
+except Exception as e:
+    pass
+prox=open('.prox.txt','r').read().splitlines()
+
 import urllib3,rich,base64
 from fake_useragent import UserAgent
 from rich.table import Table as me
