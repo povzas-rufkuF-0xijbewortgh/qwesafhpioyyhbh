@@ -1,3 +1,7 @@
+
+print('    \x1b[0;31m تم انتهاء المدة المجانيه للاشتراك قم بل تواصل مع المطور @krro6          ')
+
+exit()
 #• LUCFER XO•
 import requests,bs4,json,os,sys,random,datetime,time,re
 print(' جاري تثبيت المكتبة المطلوبة .....')
